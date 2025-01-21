@@ -19,6 +19,10 @@ function Banner() {
                 <i className='fas fa-headset service-icon'></i>
                 <p>24/7 customer support to assist you anytime.</p>
             </div>
+            <div className="service">
+                <i className='fas fa-arrow-circle-down service-icon'></i>
+                <p>Flexibility to downgrade your service at any time.</p>
+            </div>
         </div>
     </div>
   )

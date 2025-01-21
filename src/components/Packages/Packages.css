@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.packages-div{
+    width: 80%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.package{
+    width: 400px;
+    height: auto;
+    border: 1px solid red;
+    border-radius: 12px;
+    text-align: left;
+    padding: 10px 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.package:hover{
+    transform: scale(1.05);
+}
+
+.price{
+    color: black;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.package h2{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+span{
+    font-size: 0.9rem;
+    font-weight: 500;
+
+}
+
+.perks ul > li{
+    list-style: "✔ ";
+    font-size: 0.8rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
