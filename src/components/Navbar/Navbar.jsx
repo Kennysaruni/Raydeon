@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <nav>
       <div className="name">
-        <img src={logo} alt="Raydeon logo" className="logo" />
+        {/* <img src={logo} alt="Raydeon logo" className="logo" /> */}
         <h2 className="title">Raydeon Systems</h2>
       </div>
 
