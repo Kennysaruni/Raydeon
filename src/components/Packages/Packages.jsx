@@ -5,54 +5,58 @@ function Packages() {
   return (
     <div className="packages-div">
       <div className="package">
-        <p className="price">8mbps</p>
+        <p className="price">8Mbps</p>
         <h2>
           2000<span>/month</span>
         </h2>
         <div className="perks">
           <ul>
-            <li>Ideal for personal use</li>
-            <li>Connect upto 6 devices</li>
-            <li>Free installation</li>
+            <li>Great for browsing and light streaming</li>
+            <li>Connect up to 4 devices</li>
+            <li>Free installation and router</li>
+            <li>99% uptime guarantee</li>
           </ul>
         </div>
       </div>
       <div className="package">
-        <p className="price">15mbps</p>
+        <p className="price">15Mbps</p>
         <h2>
           2500<span>/month</span>
         </h2>
         <div className="perks">
           <ul>
-            <li>Ideal for personal use</li>
-            <li>Connect upto 32 devices</li>
-            <li>Free installation</li>
+            <li>Perfect for streaming in HD</li>
+            <li>Connect up to 8 devices</li>
+            <li>Free installation and router</li>
+            <li>Access to 24/7 customer support</li>
           </ul>
         </div>
       </div>
       <div className="package">
-        <p className="price">20mbps</p>
+        <p className="price">20Mbps</p>
         <h2>
           3000<span>/month</span>
         </h2>
         <div className="perks">
           <ul>
-            <li>Ideal for demanding tasks</li>
-            <li>Connect upto 64 devices</li>
-            <li>Free installation</li>
+            <li>Designed for multitasking and video calls</li>
+            <li>Connect up to 16 devices</li>
+            <li>Free installation and advanced router</li>
+            <li>Priority customer support</li>
           </ul>
         </div>
       </div>
       <div className="package">
-        <p className="price">30mbps</p>
+        <p className="price">30Mbps</p>
         <h2>
           5500<span>/month</span>
         </h2>
         <div className="perks">
           <ul>
-            <li>Connect upto 32 devices</li> 
-            <li>Very low latency</li> 
-            <li>Free installation</li>
+            <li>Seamless 4K streaming and gaming</li>
+            <li>Connect up to 32 devices</li>
+            <li>Ultra-low latency for online gaming</li>
+            <li>Free premium installation and router</li>
           </ul>
         </div>
       </div>
