@@ -10,6 +10,11 @@ body{
     margin: 0;
 }
 
+.packages-container{
+    width: 100%;
+    height: auto;
+}
+
 .packages-div{
     width: 90%;
     height: auto;
@@ -21,6 +26,10 @@ body{
     justify-content: center;
     align-items: stretch;
     margin: 0 auto;
+}
+
+.header{
+    margin-bottom: 40px;
 }
 
 .package{
@@ -58,4 +67,17 @@ span{
     font-size: 0.8rem;
     font-weight: normal;
     margin-bottom: 10px;
+}
+
+.important-info{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.important-info p{
+    font-size: 0.8rem;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
 }
