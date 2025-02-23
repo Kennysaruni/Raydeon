@@ -26,13 +26,13 @@ function Navbar() {
       <div className={`nav-items ${menuOpen ? "open" : ""}`}>
         <ul>
           <li>
-            <a href="">See Plans</a>
+            <a href="#prices">See Plans</a>
           </li>
           <li>
-            <a href="">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
           </li>
           <li>
-            <a href="">About</a>
+            <a href="#services">Services</a>
           </li>
         </ul>
       </div>

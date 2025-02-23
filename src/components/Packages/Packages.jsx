@@ -3,7 +3,7 @@ import "./Packages.css";
 
 function Packages() {
   return (
-    <div className="packages-container">
+    <div className="packages-container" id="prices">
       <h2 className="header">Join Our Clientele.</h2>
       <div className="packages-div">
         <div className="package">

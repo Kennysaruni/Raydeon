@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function Banner() {
   return (
-    <div className='banner-cont'>
+    <div className='banner-cont' id='services'>
         <h2 className="text">Why choose our services?</h2>
         <div className="services">
             <div className="service">
