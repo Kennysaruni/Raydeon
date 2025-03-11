@@ -12,9 +12,9 @@ function App() {
 
   return (
     <>
-      <Navbar/>
-      <Hero/>
-      {/* <Banner/> */}
+      {/* <Navbar/> */}
+      {/* <Hero/> */}
+      <Banner/>
       {/* <Packages/> */}
     </>
   )
