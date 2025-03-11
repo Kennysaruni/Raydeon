@@ -9,7 +9,6 @@
     border-radius: 12px;
     height: 350px;
     position: relative;
-    /* top: 50px; */
     margin: 0 auto;
     border: 1px solid black;
 }
@@ -50,10 +49,10 @@
 
 @media (max-width: 768px) {
     .hero-container{
-        padding: 10px 20px;
-        width: 90%;
-        height: 350px;
-
+        /* padding: 10px 20px; */
+        width: 90vw;
+        height: 250px;
+        margin-top: -40px;
     }
 
     .hero-img{
@@ -62,12 +61,20 @@
     }
 
     .hero-text h2{
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: bold;
+        position: absolute;
+        bottom: 80px;
+        left: 30px;
     }
 
     .hero-text p{
-        width: 100%;
+        font-size: 0.6rem;
+        font-weight: bold;
+        position: absolute;
+        bottom: 40px;
+        left: 30px;
+        width: 90%;
     }
 }
  
