@@ -1,25 +1,27 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: black;
 }
 
-body{
+body {
     overflow-x: hidden;
     margin: 0;
 }
 
-.packages-container{
+/* Main Container */
+.packages-container {
     width: 100%;
     height: auto;
+    padding: 20px 0;
 }
 
-.packages-div{
+.packages-div {
     width: 90%;
     height: auto;
-    /* border: 1px solid black; */
     display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
     flex-direction: row;
     gap: 20px;
     padding: 10px;
@@ -28,11 +30,13 @@ body{
     margin: 0 auto;
 }
 
-.header{
+.header {
     margin-bottom: 40px;
+    text-align: center;
 }
 
-.package{
+/* Individual Package */
+.package {
     width: 400px;
     height: auto;
     border: 1px solid black;
@@ -42,42 +46,84 @@ body{
     transition: transform 0.2s ease-in-out;
 }
 
-.package:hover{
+.package:hover {
     transform: scale(1.05);
 }
 
-.price{
+.price {
     color: black;
     font-size: 0.9rem;
     font-weight: bold;
 }
-.package h2{
+
+.package h2 {
     font-size: 2rem;
     font-weight: bolder;
 }
 
-span{
+span {
     font-size: 0.9rem;
     font-weight: 500;
-
 }
 
-.perks ul > li{
+/* Perks List */
+.perks ul > li {
     list-style: "✔ ";
     font-size: 0.8rem;
     font-weight: normal;
     margin-bottom: 10px;
 }
 
-.important-info{
+/* Important Info Section */
+.important-info {
     width: 70%;
     height: auto;
     margin: 0 auto;
+    text-align: center;
 }
 
-.important-info p{
+.important-info p {
     font-size: 0.8rem;
     margin-top: 20px;
-    text-align: center;
     font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .package {
+        width: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .packages-div {
+        flex-direction: column; /* Stack packages vertically */
+        align-items: center;
+    }
+
+    .package {
+        width: 90%; /* Make packages take up more space */
+    }
+
+    .important-info {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .package {
+        width: 95%; /* Even more space on smaller screens */
+    }
+
+    .package h2 {
+        font-size: 1.5rem;
+    }
+
+    .price {
+        font-size: 0.8rem;
+    }
+
+    .important-info p {
+        font-size: 0.7rem;
+    }
 }
