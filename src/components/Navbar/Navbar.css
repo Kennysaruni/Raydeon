@@ -87,6 +87,11 @@
     color: red;
     border-bottom: 1px solid red;
   }
+
+  button.close{
+    display: none;
+  }
+
   
   /* Responsive styles */
   @media (max-width: 768px) {
@@ -101,14 +106,25 @@
       display: none;
       flex-direction: column;
       position: absolute;
-      top: 60px;
+      top: 10px;
       right: 10px;
       background-color: white;
       width: 40%;
-      padding: 10px;
+      padding: 40px;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
       z-index: 999;
       transform: 0.3s ease;
+      border-radius: 12px;
+    }
+
+    button.close {
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      position: absolute;
+      left: 15px;
+      top: 10px;
     }
   
     .nav-items.open {

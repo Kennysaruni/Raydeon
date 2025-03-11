@@ -13,9 +13,9 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Hero/>
-      <Banner/>
-      <Packages/>
+      {/* <Hero/> */}
+      {/* <Banner/> */}
+      {/* <Packages/> */}
     </>
   )
 }

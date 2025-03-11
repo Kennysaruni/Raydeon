@@ -17,13 +17,18 @@ function Navbar() {
         <h2 className="title">Raydeon Systems</h2>
       </div>
 
-      <div className="hamburger-menu">
-        <button onClick={toggleMenu}>
-          <img src={menu} alt="menu" className="hamburger" />
-        </button>
-      </div>
+      {!menuOpen && (
+        <div className="hamburger-menu">
+          <button onClick={toggleMenu}>
+            <img src={menu} alt="menu" className="hamburger" />
+          </button>
+        </div>
+      )}
 
       <div className={`nav-items ${menuOpen ? "open" : ""}`}>
+        <button className="close" onClick={toggleMenu}>
+          x
+        </button>
         <ul>
           <li>
             <a href="#prices">See Plans</a>
