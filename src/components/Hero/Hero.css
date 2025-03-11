@@ -5,13 +5,13 @@
 }
 
 .hero-container{
-    width: 90%;
+    width: 90vw;
     border-radius: 12px;
-    height: 450px;
+    height: 350px;
     position: relative;
-    top: 50px;
+    /* top: 50px; */
     margin: 0 auto;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 .hero-img{
@@ -19,7 +19,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 12px;
-    opacity: 0.82;
+    /* opacity: 0.82; */
 }
 
 .hero-text{
@@ -27,7 +27,7 @@
 }
 
 .hero-text h2{
-    color: black;
+    color: white;
     font-size: 2rem;
     font-weight: bold;
     position: absolute;
@@ -37,7 +37,7 @@
 }
 
 .hero-text p{
-    color: black;
+    color: white;
     width: 700px;
     position: absolute;
     bottom: 50px;

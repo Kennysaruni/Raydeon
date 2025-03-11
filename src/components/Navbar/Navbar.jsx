@@ -29,6 +29,7 @@ function Navbar() {
         <button className="close" onClick={toggleMenu}>
           x
         </button>
+
         <ul>
           <li>
             <a href="#prices">See Plans</a>
